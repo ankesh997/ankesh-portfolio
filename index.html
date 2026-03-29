@@ -5,7 +5,6 @@
   <title>Ankesh Singh Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
   <style>
@@ -23,52 +22,54 @@
 
     header {
       text-align: center;
-      padding: 80px 20px;
+      padding: 60px 20px;
     }
 
-    header h1 {
-      font-size: 45px;
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 3px solid #38bdf8;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 38px;
     }
 
     header p {
-      margin-top: 10px;
-      font-size: 18px;
       color: #94a3b8;
+      margin-top: 10px;
     }
 
     .btn {
-      margin-top: 20px;
+      margin-top: 15px;
       padding: 10px 20px;
-      background: #38bdf8;
+      border-radius: 20px;
       border: none;
-      border-radius: 25px;
-      color: black;
+      background: #38bdf8;
       cursor: pointer;
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      background: #0ea5e9;
     }
 
     section {
-      padding: 50px 20px;
       max-width: 900px;
       margin: auto;
+      padding: 40px 20px;
     }
 
     h2 {
-      margin-bottom: 20px;
       border-left: 5px solid #38bdf8;
       padding-left: 10px;
+      margin-bottom: 20px;
     }
 
     .card {
       background: rgba(255,255,255,0.05);
-      padding: 20px;
-      margin: 15px 0;
-      border-radius: 15px;
       backdrop-filter: blur(10px);
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 15px;
       transition: 0.3s;
     }
 
@@ -86,7 +87,7 @@
       list-style: none;
       background: #334155;
       margin: 5px;
-      padding: 10px 15px;
+      padding: 10px;
       border-radius: 20px;
     }
 
@@ -101,6 +102,9 @@
 <body>
 
 <header>
+  <!-- 🔥 Yaha apni photo daal -->
+  <img src="your-image.jpg" class="profile-img">
+
   <h1>Ankesh Singh</h1>
   <p>BCA Student | Web Developer | SEO Executive</p>
   <button class="btn">Hire Me</button>
@@ -111,7 +115,7 @@
   <div class="card">
     <p>
       I am a BCA student with hands-on experience working on live websites,
-      including redesign, content updates, blog posting, and SEO optimization.
+      including redesign, blog posting, and SEO optimization.
     </p>
   </div>
 </section>
@@ -121,8 +125,8 @@
   <div class="card">
     <ul>
       <li>Website Redesign</li>
-      <li>Blog Posting</li>
       <li>SEO</li>
+      <li>Blog Posting</li>
       <li>HTML & CSS</li>
       <li>WordPress</li>
       <li>Shopify</li>
@@ -132,34 +136,19 @@
 
 <section>
   <h2>Projects</h2>
-
   <div class="card">
     <h3>Website Redesign</h3>
-    <p>Improved UI/UX and fixed structure issues on live websites.</p>
+    <p>Improved UI/UX of live websites.</p>
   </div>
 
   <div class="card">
     <h3>Blog Management</h3>
-    <p>Uploaded and optimized blogs using cPanel and CMS.</p>
+    <p>Uploaded and optimized blog content.</p>
   </div>
 
   <div class="card">
     <h3>SEO Optimization</h3>
-    <p>Worked on ALT tags, meta tags, and technical SEO fixes.</p>
-  </div>
-
-</section>
-
-<section>
-  <h2>Experience</h2>
-  <div class="card">
-    <p>
-      Intern / SEO Executive <br>
-      RNF Technologies <br><br>
-      - Worked on live websites <br>
-      - Blog posting & content updates <br>
-      - SEO improvements
-    </p>
+    <p>Worked on on-page SEO and technical fixes.</p>
   </div>
 </section>
 
